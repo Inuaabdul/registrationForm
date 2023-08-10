@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <h1>Learn to code by <br> watching others</h1>
+            <p>See how experienced developers solve problems in real-time.<br> Watching scripted tutorials is great,
+                but
+                understanding how <br> developers think is invaluable</p>
+        </div>
+        <div class="right">
+            <h2>Try it free 7 days <span>then $20/mo. thereafter</span></h2>
+
+            <form>
+                <div class="input-container" data-error="First Name cannot be empty">
+                    <label for="name"></label><br>
+                    <input type="text" class="input" name="name" id="name" placeholder="First Name" pattern="[a-zA-Z]"
+                        required>
+
+                </div>
+                <div class="input-container" data-error="Last Name cannot be empty">
+
+                    <input type="text" class=input name="lastname" id="lastname" placeholder="Last Name" required>
+
+                </div>
+                <div class="input-container" data-error="Looks like this is not an email">
+
+                    <input type="email" class="input" name="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-container" data-error="Password cannot be empty">
+
+                    <input type="password" class="input" name="password" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit">CLAIM YOUR FREE TRIAL</button>
+                <div class="foot">
+                    <h3>By clicking the button you are agreeing to out <span>Terms and Services</span></h3>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
