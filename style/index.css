@@ -155,6 +155,9 @@ h3 span {
     color: red;
 }
 
+input:focus::placeholder {
+    color: transparent
+}
 
 
 
